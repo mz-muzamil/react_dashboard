@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+	font-size: 16px;
+	line-height: 1.7;
+	position: relative;
+	overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif !important;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+:where(.css-dev-only-do-not-override-1wazalj)[class^="ant-layout"], 
+:where(.css-dev-only-do-not-override-1wazalj)[class*=" ant-layout"],
+:where(.css-dev-only-do-not-override-1wazalj).ant-tabs {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1;
+	position: relative;
+}
+
+@media all and (-ms-high-contrast: none) {
+	.main {
+		flex-basis: auto;
+	}
+	/* IE10 */
+	*::-ms-backdrop, .main {
+		flex-basis: auto;
+	}
+	/* IE11 */
+}
+.bg-gray{
+  background-color: #f6f8fa;
+}
+.header-info{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header-info .name-circle{
+  display: inline-block;
+  text-align: center;
+}
+.header-info .name-circle span{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 60px;
+  overflow: hidden;
+  text-transform: uppercase;
+  background-color: #0029e3;
+}
+.header-info h4.ant-typography{
+  margin: 10px 0 30px 0;
+}
+.header-info h2.ant-typography{
+  margin: 0;
+}
+.custom-card .ant-card-cover{
+  padding: 24px 24px 0 24px;
+}
+.custom-card .ant-card-cover span{
+  width: 60px;
+  height: 60px;
+  color: #0029e3;
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 60px;
+  overflow: hidden;
+  text-transform: uppercase;
+  background-color: #f0f2ff;
+}
+.custom-card .ant-card-meta-detail .ant-card-meta-title{
+  font-weight: 600;
+  font-size: 22px;
+}
+.custom-card .ant-card-meta-detail .ant-card-meta-description{
+  font-size: 20px;
+}
+.extra-options .ant-btn .material-symbols-outlined{
+  float: left;
+}
+.navigation ul{
+  padding: 0;
+  margin: 0;
+}
+.navigation ul li{
+  width: 100%;
+}
+.navigation ul li a{
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navigation ul li.active a{
+  color: #fff;
+  background-color: #1677ff;
+}
+.ant-tabs-tab-btn{
+  font-weight: bold;
+  font-size: 16px;
+}
+.ant-table-content {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
