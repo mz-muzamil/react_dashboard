@@ -5,7 +5,6 @@ import "./App.css";
 import Users from "./components/pages/Users";
 import Home from "./components/pages/Home";
 import SideBar from "./components/sidebar/sidebar";
-import NewSilder from "./components/pages/new_silder";
 
 const { Content } = Layout;
 const App = () => {
@@ -28,7 +27,6 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/users" element={<Users />} />
-              <Route path="/new" element={<NewSilder />} />
             </Routes>
           </Content>
         </Router>
