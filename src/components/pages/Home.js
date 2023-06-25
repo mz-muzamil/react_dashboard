@@ -103,61 +103,6 @@ const Home = () => {
                   description="Genrate a custom specific, benchmark reports."
                 />
               </Card>
-            </Col><Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <Card
-                className="custom-card"
-                cover={<span className="material-symbols-outlined">moving</span>}
-                bordered={false}
-              >
-                <Meta
-                  title="Opportunities"
-                  description="Genrate a custom specific, benchmark reports."
-                />
-              </Card>
-            </Col><Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <Card
-                className="custom-card"
-                cover={<span className="material-symbols-outlined">moving</span>}
-                bordered={false}
-              >
-                <Meta
-                  title="Opportunities"
-                  description="Genrate a custom specific, benchmark reports."
-                />
-              </Card>
-            </Col><Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <Card
-                className="custom-card"
-                cover={<span className="material-symbols-outlined">moving</span>}
-                bordered={false}
-              >
-                <Meta
-                  title="Opportunities"
-                  description="Genrate a custom specific, benchmark reports."
-                />
-              </Card>
-            </Col><Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <Card
-                className="custom-card"
-                cover={<span className="material-symbols-outlined">moving</span>}
-                bordered={false}
-              >
-                <Meta
-                  title="Opportunities"
-                  description="Genrate a custom specific, benchmark reports."
-                />
-              </Card>
-            </Col><Col xs={24} sm={24} md={12} lg={12} xl={12}>
-              <Card
-                className="custom-card"
-                cover={<span className="material-symbols-outlined">moving</span>}
-                bordered={false}
-              >
-                <Meta
-                  title="Opportunities"
-                  description="Genrate a custom specific, benchmark reports."
-                />
-              </Card>
             </Col>
           </Row>
         </Col>
